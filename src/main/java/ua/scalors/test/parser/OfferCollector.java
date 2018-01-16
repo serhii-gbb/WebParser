@@ -134,7 +134,7 @@ public class OfferCollector {
 
             parseOriginalPrice(offer, document);
 
-            parseOriginalPrice(offer, document);
+            parseFinalPrice(offer, document);
 
             parseBrandName(offer, document);
 
