@@ -30,7 +30,7 @@ public class JaxBParser {
             jaxbMarshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
 
 
-            jaxbMarshaller.marshal(data, new File("../result.xml"));
+            jaxbMarshaller.marshal(data, new File("result.xml"));
 
 
         } catch (JAXBException e) {
